@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40e93446a86cbb946999bbfffce14e60, type: 3}
+  m_Name: NPC_1
+  m_EditorClassIdentifier: 
+  actor: {fileID: 6522063919302229883, guid: c213ef494ec1a6342ac0fa6daa21c925, type: 3}
+  speakerSprite: {fileID: 0}
+  sentence: 
+  dialogues:
+  - actorName: NPC
+    profile: {fileID: -881599323, guid: c2ec33a1f74b59c4ba97b92ea870f2d2, type: 3}
+    sentence:
+      portuguese: "Ol\xE1 forasteiro!"
+      english: Hello outsider!
+      spanish: " \xA1Hola forastero!"
+  - actorName: 
+    profile: {fileID: 497009142, guid: d34cae1db3716934f9e923c43fb5ba47, type: 3}
+    sentence:
+      portuguese: "E a\xED! Tudo bem?"
+      english: What's up! How are you?
+      spanish: " \xA1Y ah\xED! \xBFTodo bien?"
+  - actorName: Player
+    profile: {fileID: -881599323, guid: c2ec33a1f74b59c4ba97b92ea870f2d2, type: 3}
+    sentence:
+      portuguese: "Tudo na paz e por a\xED?"
+      english: All in peace and you?
+      spanish: "\xBFTodo en paz y tu?"
+  - actorName: Player
+    profile: {fileID: 497009142, guid: d34cae1db3716934f9e923c43fb5ba47, type: 3}
+    sentence:
+      portuguese: "T\xF4 tranquilo! Tentando completar o jogo."
+      english: I'm fine! Trying to complete the game.
+      spanish: "\xA1Estoy bien! Intentando completar el juego."
